@@ -2,7 +2,7 @@
   "name": "quickcssstyla",
   "version": "1.0.0",
   "description": "A desktop app for generating CSS with a GUI.",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-packager . quickCSSstyla --platform=win32 --arch=x64 --out=dist/ --overwrite",
