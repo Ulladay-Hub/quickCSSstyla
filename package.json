@@ -8,6 +8,7 @@
     "pack": "electron-packager . quickCSSstyla --platform=win32 --arch=x64 --out=dist/ --overwrite",
     "dist": "electron-builder"
   },
+
   "keywords": [
     "css",
     "generator",
@@ -19,7 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^31.3.1",
-    "electron-builder": "^24.4.0",
+    "electron-builder": "25.0.3",
     "electron-packager": "^17.1.2"
   },
   "build": {
